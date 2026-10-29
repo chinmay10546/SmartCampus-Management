@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="favCap" x1="100" y1="10" x2="100" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A50D27" />
+      <stop offset="50%" stop-color="#7B0017" />
+      <stop offset="100%" stop-color="#54000F" />
+    </linearGradient>
+
+    <linearGradient id="favRibbon" x1="70" y1="50" x2="150" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9E0B25" />
+      <stop offset="35%" stop-color="#710014" />
+      <stop offset="100%" stop-color="#4A000D" />
+    </linearGradient>
+
+    <linearGradient id="favSand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9AC8E" />
+      <stop offset="50%" stop-color="#B38F6F" />
+      <stop offset="100%" stop-color="#9C7756" />
+    </linearGradient>
+
+    <linearGradient id="favDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#630011" />
+      <stop offset="100%" stop-color="#380009" />
+    </linearGradient>
+  </defs>
+
+  <!-- Side Wings / Columns -->
+  <!-- Left Outer -->
+  <path d="M 28 148 L 42 139 L 42 178 L 28 178 Z" fill="url(#favSand)" />
+  <path d="M 28 148 L 33 145 L 33 178 L 28 178 Z" fill="url(#favDark)" />
+  <!-- Left Inner -->
+  <path d="M 45 137 L 59 128 L 59 178 L 45 178 Z" fill="url(#favSand)" />
+
+  <!-- Right Inner -->
+  <path d="M 141 128 L 155 137 L 155 178 L 141 178 Z" fill="url(#favSand)" />
+  <!-- Right Outer -->
+  <path d="M 158 139 L 172 148 L 172 178 L 158 178 Z" fill="url(#favSand)" />
+  <path d="M 167 145 L 172 148 L 172 178 L 167 178 Z" fill="url(#favDark)" />
+
+  <!-- Base Portal Background and Archway -->
+  <path d="M 62 122 L 78 112 L 78 178 L 62 178 Z" fill="url(#favDark)" />
+  <path d="M 86 178 L 86 142 C 86 128, 114 128, 114 142 L 114 178 Z" fill="url(#favSand)" />
+
+  <!-- The "S" Ribbon Structure -->
+  <path
+    d="
+      M 138 78
+      C 138 66, 120 56, 100 56
+      C 78 56, 64 66, 64 81
+      C 64 95, 75 103, 94 113
+      L 120 126
+      C 140 136, 151 148, 151 163
+      L 151 178
+      L 130 178
+      L 130 163
+      C 130 154, 122 148, 108 141
+      L 84 128
+      C 63 117, 44 104, 44 79
+      C 44 52, 70 36, 100 36
+      C 126 36, 140 49, 143 60
+      Z
+    "
+    fill="url(#favRibbon)"
+  />
+
+  <!-- White / Clean Negative Space Cut -->
+  <path
+    d="M 78 112 L 119 133 C 130 139, 136 146, 136 156 L 136 178"
+    stroke="#FFFFFF"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    fill="none"
+    opacity="0.9"
+  />
+  <path
+    d="M 83.5 178 L 83.5 142 C 83.5 125, 116.5 125, 116.5 142 L 116.5 178"
+    stroke="#FFFFFF"
+    stroke-width="3"
+    fill="none"
+    opacity="0.9"
+  />
+
+  <!-- Mortarboard Cap -->
+  <polygon points="100,10 168,36 100,56 32,36" fill="url(#favCap)" />
+  <polygon points="32,36 32,40 100,60 168,40 168,36 100,56" fill="#42000A" />
+  <polygon points="80,54 120,54 125,66 75,66" fill="#300006" opacity="0.85" />
+
+  <!-- Tassel -->
+  <path d="M 158 39 Q 161 54 161 70" stroke="#42000A" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <rect x="159" y="70" width="4.5" height="2.5" rx="0.8" fill="url(#favSand)" />
+  <rect x="158" y="72.5" width="6.5" height="15" rx="2.5" fill="url(#favCap)" />
+</svg>
